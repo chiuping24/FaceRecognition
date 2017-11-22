@@ -10,3 +10,5 @@ $ import tensorflow as tf
 $ print(tf.__version__)
 1.3.0
 ```
+4. [good reference of face recognition with Tensorflow](http://www.jianshu.com/p/3e5ddc44aa56)
+5. [good introduction of Convolutional neural network of Tensorflow](http://arbu00.blogspot.tw/2017/03/2-tensorflowconvolutional-neural.html)
