@@ -24,4 +24,7 @@ CNN使用過濾器(filters)增強與該局部圖形空間的相關性，然後�
 2. Pooling  
 3. Default TensorFlow model saving in python  
 * .ckpt: (index) checkpoint 包含模型中所有variable  
-
+* model.ckpt.meta: the graph strucutre of model  
+* 輸出單個文件(包含模型架構與權重 .pb) 方便其他使用ex: C++  
+* tf.train.write_graph(session.graph_def, "/tmp/load", "test.pb", False) #proto  
+* 
