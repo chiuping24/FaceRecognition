@@ -14,7 +14,14 @@ $ print(tf.__version__)
 5. [good introduction of Convolutional neural network of Tensorflow](http://arbu00.blogspot.tw/2017/03/2-tensorflowconvolutional-neural.html)
 
 #### Brief introduction of CNN of Tensorflow
+區域感知域(Local Receptive field)，卷積(Convolutional )，池化(pooling)  
+CNN使用過濾器(filters)增強與該局部圖形空間的相關性，然後堆疊許多這樣子的層   
+
 1. Convolution layer:  
-* filter  
-* fff  
-2. f
+* filter size/ number
+* 搭配適當的convolution layer 可使training model效率和結果提升
+* full connection layer number 可被調控   
+2. Pooling  
+3. Default TensorFlow model saving in python  
+* .ckpt: (index) checkpoint 包含模型中所有variable  
+
