@@ -256,6 +256,7 @@ def train():
                         print("create the directory: %s" % model_dir)
                     save_path = saver.save(session, model_path)
                     writer = tf.summary.FileWriter("log/", session.graph)
+                    # for TensorBoard saving info. in log/ 
                 
                     tf.train.write_graph(session.graph_def, "Pb/", "pbModel.pb", False) #proto
                     print("Model saved in file: %s" % save_path)
